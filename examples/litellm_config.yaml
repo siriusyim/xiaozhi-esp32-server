@@ -1,0 +1,13 @@
+model_list:
+  # 通义千问 Qwen
+  - model_name: qwen-turbo
+    litellm_params: # all params accepted by litellm.completion() - https://docs.litellm.ai/docs/completion/input
+      model: dashscope/qwen-turbo
+      api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api_key: xxxx 
+  # 智谱 GLM-4
+  - model_name: bge-m3
+    litellm_params:
+      model: zhipuai/BAAI/bge-m3
+      api_key: xxxxx
+
